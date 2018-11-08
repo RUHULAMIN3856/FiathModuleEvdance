@@ -1,0 +1,23 @@
+
+
+#dropedItems{
+background-color:gray;
+margin-left:auto;
+margin-right:auto;
+width:600px;
+height:200px;
+text-align: center;
+padding-top: 20px;
+border: solid;
+}
+
+table{
+margin-left:auto;
+margin-right:auto;
+width:600px;
+
+}
+
+th,td{
+    padding: 5px;
+}

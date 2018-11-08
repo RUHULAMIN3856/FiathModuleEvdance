@@ -1,0 +1,26 @@
+
+#container{
+    width: 50%;   
+}
+
+label, input{
+    height: 30px;
+    font-size: 15pt;
+}
+label{
+    width: 200px;
+    background-color: darkcyan;
+    display: block;
+}
+
+input,textarea {
+width: 250px;
+}
+
+:invalid{
+    border-color: red;
+}
+:valid{
+    border-color: green;
+    background-color: white;
+}

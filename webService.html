@@ -1,0 +1,73 @@
+
+<!Doctype html>
+<html>
+    <head>
+        <title>Web Service</title>
+        <link href="webService.css" rel="stylesheet"/>
+        <script src="Scripts/jquery-3.3.1.js" ></script>
+        <script src="webService.js" ></script>
+    </head>
+    <body>
+            <center>
+                <h1>Contact Information Entry Form</h1>
+        <div id="container">
+            
+            <form id="studentInfo" method="POST" action="/studentinfo" target="_blank">
+                <table>
+            <tr>
+                <td>
+                <label for="txtFname">First Name :</label>
+            </td>
+                <td>
+                <input type="text" id="txtFName" name="txtFname" required="required"/>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                <label>Last Name :</label>
+                </td>
+                <td>
+                <input type="text" id="txtLName" name="txtLname" required="required"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <label>Mobile No :</label>
+            </td>
+                <td>
+                <input type="text" id="txtMobile" name="txtMobile" required="required"/>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                <label>Email :</label>
+            </td>
+                <td>
+                <input type="text" id="txtEmail" name="txtEmail" required="required" title="Enter You Email"/>
+            </td>
+            </tr>
+            <tr>
+                    <td>
+                    <label>Address :</label>
+                </td>
+                    <td>
+                    <textarea type="text" id="txtAddress" name="txtAddress" required="required" style="height:100px;" ></textarea>
+                </td>
+                </tr>
+            <tr>
+                <td></td>
+                <td >
+                    <center>
+                    <input type="submit" name="btnSubmit" id="btnSubmit" value="Submit" style="width:100px;"/>
+                </center>
+                </td>
+            </tr>
+        </table>
+        </form>
+        <div>
+            <span id="output"></span>
+        </div>
+        </div>
+    </center>
+    </body>
+</html>
